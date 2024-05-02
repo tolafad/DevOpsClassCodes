@@ -290,22 +290,6 @@
                             </execution>
                         </executions>
                     </plugin>
-                  
-                                <plugin>
-                                    <groupId>org.apache.maven.plugins</groupId>
-                                    <artifactId>maven-jxr-plugin</artifactId>
-                                    <version>2.4</version>
-                                </plugin>
-                            </reportPlugins>
-                        </configuration>
-                        <dependencies>
-                            <dependency>
-                                <groupId>com.edurekademo.tutorial</groupId>
-                                <artifactId>addressbook</artifactId>
-                                <version>${project.version}</version>
-                            </dependency>
-                        </dependencies>
-                    </plugin>
                 </plugins>
             </build>
         </profile>
